@@ -8,21 +8,9 @@
         <base href="<?php echo base_url();?>" />
         <title>Register - <?php echo $config['app_name'];?> </title>
 		
-		<!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="smart_hrm/public/assets/img/favicon.png">
-		
-		<!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="smart_hrm/public/assets/css/bootstrap.min.css">
-		
-		<!-- Fontawesome CSS -->
-        <link rel="stylesheet" href="smart_hrm/public/assets/css/font-awesome.min.css">
-		
-		<!-- Main CSS -->
-        <link rel="stylesheet" href="smart_hrm/public/assets/css/style.css">
-		
-		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!--[if lt IE 9]>
-			<script src="assets/js/html5shiv.min.js"></script>
-			<script src="assets/js/respond.min.js"></script>
-		<![endif]-->
-    </head>
+		<link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url('/public/assets/img/favicon.png') ?>">
+        <link rel="stylesheet" href="<?php echo base_url('/public/assets/css/bootstrap.min.css') ?>">
+        <link rel="stylesheet" href="<?php echo base_url('/public/assets/css/font-awesome.min.css') ?>">
+        <link rel="stylesheet" href="<?php echo base_url('/public/assets/css/style.css') ?>">
+
+</head>
