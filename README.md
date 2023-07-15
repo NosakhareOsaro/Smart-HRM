@@ -18,7 +18,7 @@ The Staff Attendance Management System is a web application developed using PHP,
 ## Installation and Usage
 
 1. Clone the repository
-2. Import the provided `database.sql` file into your MySQL database to set up the required tables.
+2. Import the provided `db_smart_hrm.sql` file into your MySQL database to set up the required tables.
 3. Update the database connection settings in the `config.php` file.
 4. Deploy the project on a PHP-enabled web server.
 5. Log in using the provided admin credentials (email: test123@gmail.com, password: 12345678) to start managing staff attendance.
