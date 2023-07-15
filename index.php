@@ -19,6 +19,7 @@ $router->map('GET|POST', '/register/?', function() use ($config) {
     require __DIR__ . '/resources/views/auth/register.php';
 });
 
+
 $router->map('GET|POST', '/login/?', function() use ($config) {
     require __DIR__ . '/app/controllers/login_controller.php';
     require __DIR__ . '/resources/views/auth/login.php';
