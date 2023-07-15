@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# Force SSL
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . index.php [L]
+
+
+php_value post_max_size 100M
+php_value upload_max_filesize 80M
+
